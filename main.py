@@ -10,6 +10,7 @@ async def main():
         print("Bot Start")
         dp.include_router(call_router)
         dp.include_router(commands_router)
+        
         await dp.start_polling(bot)
     except Exception as ex:
         print(f"There is an Exception {ex}")
