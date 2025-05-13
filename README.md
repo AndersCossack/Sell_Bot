@@ -1,2 +1,1 @@
-# SellBot
 # Sell_Bot
